@@ -1,7 +1,12 @@
 import './App.css';
+import Hacker from 'components/react-lifetime';
 
 function App() {
-  return <div>App</div>;
+  return (
+    <div>
+      <Hacker />
+    </div>
+  );
 }
 
 export default App;
